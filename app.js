@@ -8,6 +8,7 @@ class Calculator {
     clear() {
         this.currentResult = '';
         this.previousResult = '';
+        this.history.innerText = '';
         this.operation = undefined;
     }
 
