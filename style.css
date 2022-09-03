@@ -142,3 +142,9 @@ button:hover {
     background-color: #223323;
     color: #fff;
 }
+
+@media only screen and (max-width: 394px) {
+    .calculator {
+        transform: scale(1);
+    }
+}
