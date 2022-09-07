@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Permanent+Marker&display=swap');
+ 
 /*FORMAT*/
 *,
 *::before,
@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     transition: all .5s ease;
 }
 
