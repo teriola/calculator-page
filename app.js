@@ -110,6 +110,6 @@ changeThemeButton.addEventListener('click', () => {
     containerElement.classList.toggle('dark');
     calculatorElement.classList.toggle('dark');
     const src = document.querySelector('#theme-icon').src;
-    if (src == 'https://i.imgur.com/WOuNJww.pngg') document.querySelector('#theme-icon').src = 'https://i.imgur.com/dqgyGVh.png';
-    else document.querySelector('#theme-icon').src = 'https://i.imgur.com/WOuNJww.pngg';
+    if (src == 'https://i.imgur.com/T1AeDNs.png') document.querySelector('#theme-icon').src = 'https://i.imgur.com/DdpfQov.png';
+    else document.querySelector('#theme-icon').src = 'https://i.imgur.com/T1AeDNs.png';
 });
