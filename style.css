@@ -68,7 +68,8 @@ button {
 }
 
 #theme-icon {
-    width: 100%;
+    width: 80%;
+    padding: 8px 0;
 }
 
 button:hover {
