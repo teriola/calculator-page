@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Permanent+Marker&display=swap');
- 
+
 /*FORMAT*/
 *,
 *::before,
@@ -67,6 +67,10 @@ button {
     transition: all 200ms ease;
 }
 
+#theme-icon {
+    width: 100%;
+}
+
 button:hover {
     transform: scale(1.15);
 }
@@ -85,19 +89,15 @@ button:hover {
     color: #0a1e23;
 }
 
-.calculator button[data-clear],
-.calculator button[data-theme] {
-    background-color: #ffd5d8;
-    color: #fc4552;
-}
-
 .calculator button[data-number] {
     background-color: #c3eaff;
     color: #000;
 }
 
 .calculator button[data-operation],
-.calculator button[data-delete] {
+.calculator button[data-delete],
+.calculator button[data-clear],
+.calculator button[data-theme] {
     background-color: #ffd0fd;
     color: #f957f3;
 }
@@ -121,19 +121,15 @@ button:hover {
     color: #f8fafd;
 }
 
-.calculator button[data-clear],
-.calculator button[data-theme] {
-    background-color: #2d191e;
-    color: #bd3740;
-}
-
 .calculator.dark button[data-number] {
     background-color: #1b2f38;
     color: #f8fafb;
 }
 
 .calculator.dark button[data-operation],
-.calculator.dark button[data-delete] {
+.calculator.dark button[data-delete],
+.calculator.dark button[data-clear],
+.calculator.dark button[data-theme] {
     background-color: #2e1f39;
     color: #aa00a4;
 }

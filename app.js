@@ -109,4 +109,7 @@ deleteButton.addEventListener('click', () => {
 changeThemeButton.addEventListener('click', () => {
     containerElement.classList.toggle('dark');
     calculatorElement.classList.toggle('dark');
+    const src = document.querySelector('#theme-icon').src;
+    if (src == 'file:///home/terola/Documents/Git/calculator-page/icons/moonIcon.png') document.querySelector('#theme-icon').src = 'file:///home/terola/Documents/Git/calculator-page/icons/sunIcon.png';
+    else document.querySelector('#theme-icon').src = 'file:///home/terola/Documents/Git/calculator-page/icons/moonIcon.png';
 });
